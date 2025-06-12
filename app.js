@@ -167,3 +167,18 @@ let obj = { name: "John" };
 ws.add(obj);
 console.log(ws.has(obj)); // true
 console.log(ws);
+
+
+var a;
+function paras() {
+  a=10;
+}console.log('outsideabefore:-',a);
+paras()
+console.log('outsidea:-',a);
+
+let b;
+ {
+  b=10;
+}
+console.log('outsideb:-',b);
+
